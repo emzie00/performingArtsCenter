@@ -139,7 +139,7 @@ header a {
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   grid-column: 2;
-  color: #80A2BF;
+  color: #536473;
 }
 header a:hover {
   color: #BF7330;
@@ -147,7 +147,7 @@ header a:hover {
 
 /* NAVIGATION STUFF GOES HERE  */
 nav ul li a {
-  color: #536473;
+  color: black;
   text-decoration: none;
   display: block;
   padding: 0.9rem 2vw;
@@ -193,6 +193,8 @@ main section div h2 {
   text-align: center;
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: #536473;
 }
 
 /* FOOTER  */
@@ -203,11 +205,11 @@ main section div h2 {
 footer {
   font-size: 0.85rem;
   padding: 1rem 0;
-  color: #536473;
+  color: black;
   text-align: center;
 }
 footer a {
-  color: #BF7330;
+  color: black;
 }
 
 @media only screen and (min-width: 35rem) {
