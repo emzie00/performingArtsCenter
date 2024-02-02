@@ -46,6 +46,10 @@ header {
 } // end header
 
 /* NAVIGATION STUFF GOES HERE  */
+#navWrapper {
+    background-color: #A9BED9;
+    max-width: 75rem auto;
+}
 nav {
   ul li a {
     color: black;
@@ -66,11 +70,6 @@ nav {
 
 /* MAIN  */
 main {
-  p {
-    padding: 0.5rem 2vw;
-    color: $fontColor;
-    line-height: 125%;
-  }
   h1 {
     padding: 1rem 2vw 0.5rem 2vw;
     font-size: 1.5rem;
@@ -88,6 +87,7 @@ main {
     img {
       width: 100%;
       height: auto;
+      margin: 0;
     }
     h2 {
         font-weight: $lightWeight;
@@ -97,6 +97,12 @@ main {
         padding-bottom: .5rem;
         padding-top: .5rem;
         background-color: $fontColor;
+    }
+    p {
+        color: white;
+        text-align: center;
+        background-color: $fontColor;
+        padding: 1rem;
     }
   }
 } // end main

@@ -146,6 +146,11 @@ header a:hover {
 }
 
 /* NAVIGATION STUFF GOES HERE  */
+#navWrapper {
+  background-color: #A9BED9;
+  max-width: 75rem auto;
+}
+
 nav ul li a {
   color: black;
   text-decoration: none;
@@ -163,11 +168,6 @@ nav ul li.active a {
 }
 
 /* MAIN  */
-main p {
-  padding: 0.5rem 2vw;
-  color: #536473;
-  line-height: 125%;
-}
 main h1 {
   padding: 1rem 2vw 0.5rem 2vw;
   font-size: 1.5rem;
@@ -186,6 +186,7 @@ main section div {
 main section div img {
   width: 100%;
   height: auto;
+  margin: 0;
 }
 main section div h2 {
   font-weight: 300;
@@ -195,6 +196,12 @@ main section div h2 {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   background-color: #536473;
+}
+main section div p {
+  color: white;
+  text-align: center;
+  background-color: #536473;
+  padding: 1rem;
 }
 
 /* FOOTER  */
